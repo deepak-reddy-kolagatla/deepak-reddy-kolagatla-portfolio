@@ -1,0 +1,107 @@
+// Global styling for this template
+
+body {
+  @include body-font;
+  padding-top: 54px;
+  color: $gray-600;
+  background-color: #fafbfc;
+}
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
+    padding-left: $sidebar-base-width;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @include heading-font;
+  font-weight: 700;
+  color: $gray-800;
+  letter-spacing: -0.5px;
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 3px solid $primary;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: $gray-900;
+}
+
+.subheading {
+  font-weight: 600;
+  @include heading-font;
+  font-size: 1.1rem;
+  color: $primary;
+  letter-spacing: 0.5px;
+  text-transform: none;
+}
+
+.subheading-contact {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: $gray-700;
+  
+  a {
+    color: $primary;
+    text-decoration: none;
+    &:hover {
+      color: darken($primary, 10%);
+      text-decoration: underline;
+    }
+  }
+}
+
+.resume-meta {
+  font-size: 0.9rem;
+  color: $gray-600;
+  margin-bottom: 0.25rem;
+  font-weight: 500;
+}
+
+.list-social-icons {
+  a {
+    color: $gray-700;
+    transition: all 0.3s ease;
+    &:hover {
+      color: $primary;
+      transform: translateY(-3px);
+    }
+    .fa-lg {
+      font-size: 1.75rem;
+    }
+  }
+}
+
+.list-icons {
+  font-size: 3rem;
+  .list-inline-item i {
+    transition: all 0.3s ease;
+    &:hover {
+      color: $primary;
+      transform: scale(1.1);
+    }
+  }
+}
+
