@@ -3,7 +3,7 @@
 ## Live Portfolio
 
 ```text
-https://your-portfolio-link.com
+https://deepak-reddy-kolagatla.github.io/portfolio/
 ```
 
 ---
@@ -171,7 +171,7 @@ GenAI-powered Retrieval-Augmented Generation (RAG) platform enabling semantic po
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/portfolio.git
+git clone https://github.com/deepak-reddy-kolagatla/portfolio.git
 ```
 
 Open the project:
@@ -205,7 +205,7 @@ The portfolio can be hosted using:
 ## Deepak Reddy Kolagatla
 
 - LinkedIn: https://linkedin.com/in/deepakreddyk
-- GitHub: https://github.com/drk532
+- GitHub: https://github.com/deepak-reddy-kolagatla
 - Email: deepak532970@gmail.com
 
 ---
